@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_system_core" />
   <project remote="github" revision="master" name="blerfont/android_device_softwinner_vortexc" path="device/softwinner/vortexc" />
-  <project remote="github" revision="master" name="blerfont/android_hardware_realtek" path="hardware/realtek" />
+  <project remote="github" revision="jellybean" name="allwinner-dev-team/android_hardware_realtek" path="hardware/realtek" />
   <project remote="github" revision="jellybean-cm" name="blerfont/android_hardware_libhardware" path="hardware/libhardware" />
   <project remote="github" revision="jellybean" name="blerfont/android_frameworks_av" path="frameworks/av" />
   <project remote="github" revision="jellybean-cm" name="blerfont/android_frameworks_native" path="frameworks/native" />
