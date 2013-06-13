@@ -11,4 +11,5 @@
   <project remote="github" revision="jellybean-cm" name="Vortexcolor/android_frameworks_native" path="frameworks/native" />
   <project remote="github" revision="jellybean" name="Vortexcolor/android_frameworks_base" path="frameworks/base" />
   <project remote="github" revision="jellybean" name="Vortexcolor/android_system_core" path="system/core" />
+  <project remote="github" revision="jellybean" name="Vortexcolor/android_vendor_google" path="vendor/google" />
 </manifest>
